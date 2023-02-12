@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+
+ul,
+li,
+nav {
+    display: inline-block;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-areas:
+        "title . nav";
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header P {
+    display: inline-block;
+    font-weight: bold;
+    justify-items: start;
+    align-self: center;
+    grid-area: title;
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    column-gap: 25px;
+    justify-items: start;
+    align-self: end;
+    grid-area: nav;
+    padding-left: 0;
+}
+
+header nav ul li {
+    display: grid;
+    justify-items: start;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 3px;
+    margin: 5px;
+    box-shadow: 0 0 1.5rem 0.1em rgba(0, 0, 0, 0.25);
+}
+
+.first-img {
+    float: right;
+    width: 15%;
+    margin: 6px;
+}
+
+.quote-align {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+blockquote {
+    display: inline-block;
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-left: 3px solid gray;
+    width: 20%;
+    font-size: 14px;
+    color: gray;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}
+
+.second-img {
+    float: left;
+    width: 20%;
+    margin: 0px 15px 10px 0px;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-left: 80px;
+}
+
+aside h3 {
+    margin-bottom: 0;
+}
+
+aside section nav ul li {
+    display: block;
+
+}
+
+aside section nav ul li {
+    display: list-item;
+    line-height: 1.5;
+}
