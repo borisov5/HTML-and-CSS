@@ -1,0 +1,25 @@
+body,
+ul,
+li {
+    display: flex;
+
+}
+
+body {
+    background-color: RGB(238, 238, 238);
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+img {
+    background-color: white;
+    border: 0.4rem solid black;
+    padding: 0.6em;
+    object-fit: contain;
+}
