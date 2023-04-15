@@ -1,0 +1,223 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.google.com/specimen/Raleway");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+
+:root {
+    --clr-background: #E3E3E3;
+    --clr-secondary: #EFEFEF;
+}
+
+body {
+    font-family: 'Raleway';
+    display: grid;
+    grid-template-areas: 
+    'section-one'
+    'section-two'
+    'section-three'
+    'section-four'
+    'section-five'
+    'section-six';
+    grid-template-rows: 800px 800px 800px 800px 800px 800px;
+    grid-template-columns: 1600px 1600px 1600px 1600px 1600px 1600px;
+    gap: 50px;
+    padding: 25px 50px;
+}
+
+/* first section */
+
+.first-page-section {
+    grid-area: section-one;
+    background-color: var(--clr-background);
+}
+
+.first-page-section div nav {
+    text-align: end;
+    padding-right: 24px;
+}
+
+.starting-template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.first .second {
+    width: 50%;
+}
+
+.first h1 {
+    padding-top: 3rem;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.first p {
+    font-weight: 100;
+    padding-top: 1rem;
+    
+}
+
+.second {
+    padding: 229px 50px 0px 50px;
+    width: 100%;
+}
+
+/* second section */
+
+.second-page-section {
+    grid-area: section-two;
+    background-color: var(--clr-background);
+    display: grid;
+    grid-template-areas: 'img div';
+    grid-template-columns: 50%;
+}
+
+.second-page-section img {
+    grid-area: img;
+    padding: 150px 0px 50px 6rem;
+    max-width: 100%;
+}
+
+.second-page-section div {
+    grid-area: div;
+    padding-right: 50px;
+}
+
+.second-page-section-div h1 {
+    padding-top: 200px;
+    font-weight: 100;
+}
+
+.second-page-section-div p {
+    font-weight: 100;
+    font-size: 12px;
+    padding-top: 18px;
+}
+
+.icons {
+    padding-top: 30px;
+}
+
+.icons i {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/* third section */
+.third-page-section {
+    grid-area: section-three;
+}
+
+/* fourth section */
+
+.fourth-page-section {
+    grid-area: section-four;
+    display: grid;
+    grid-template-areas: 'div img';
+    grid-template-columns: 50%;
+    background-color: var(--clr-background);
+}
+
+.fourth-page-section-div {
+    grid-area: div;
+    padding: 18rem 6rem 8rem 6rem;
+}
+
+.fourth-page-section img {
+    grid-area: img;
+    padding: 200px 100px 100px 100px;
+}
+
+.fourth-page-section-div p {
+    padding-top: 1rem;
+}
+
+.fourth-page-section-div h1 {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+/* fifth section */
+
+.fifth-page-section {
+    grid-area: section-five;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-background);
+    
+}
+
+.first-image {
+    position: relative;
+    left: 120px;
+}
+
+.second-image {
+    width: 120%;
+    z-index: 1;
+}
+
+.third-image {
+    position: relative;
+    right: 120px;
+}
+
+/* sixth section */
+
+.sixth-page-section {
+    grid-area: section-six;
+    background-color: var(--clr-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sixth-page-section h1 {
+    padding-top: 100px;
+}
+
+.last-page-paragraph {
+    padding: 0px 250px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form {
+    display: grid;
+    grid-template-areas: 
+    'email subject'
+    'message message'
+    'btn btn';
+    padding-top: 80px;
+    gap: 20px;
+    grid-template-rows: 40px 120px 40px;
+    grid-template-columns: 250px 250px;
+}
+
+#YEmail {
+    grid-area: email;
+}
+
+#Subject {
+    grid-area: subject;
+}
+
+#Message {
+    grid-area: message;
+
+}
+
+.send-message-btn {
+    grid-area: btn;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    padding-top: 150px;
+}
