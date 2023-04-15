@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+
+body {
+    font-family: 'Raleway';
+    background-color: #F5F5F5;
+}
+
+body h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+body h2 {
+    text-align: center;
+    padding-left: 10%;
+    font-size: 32px;
+    color: red;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section div {
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+}
+
+section div img {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.first,
+.second,
+.third p {
+    text-align: center;
+}
+
+.first-paragraph-one,
+.second-paragraph-one,
+.third-paragraph-one {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.first-paragraph-two,
+.second-paragraph-two,
+.third-paragraph-two {
+    font-size: 24px;
+}
+
+.first-paragraph-three,
+.second-paragraph-three,
+.third-paragraph-three {
+    font-size: 24px;
+}
+
+.first-div,
+.second-div,
+.third-div {
+    padding: 0px 5% 0px 5%;
+}
