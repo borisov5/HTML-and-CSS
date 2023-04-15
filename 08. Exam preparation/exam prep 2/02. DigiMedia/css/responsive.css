@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+    .navbar-light {
+        display: none;
+    }
+    .navbarSupportedContent {
+        display: none;
+    }
+
+    .navbar-brand {
+        background-color: yellow;
+    }
+
+    .container-fluid img {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container p {
+        text-align: center;
+    }
+  }
+  
